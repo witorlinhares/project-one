@@ -1,7 +1,6 @@
 document.addEventListener("scroll", function () {
     const imageAbout = document.querySelector('.image_about');
     const imageExpertise = document.querySelector('.image_expertise');
-    const imageTestimonials = document.querySelector('.image_testimonials');
     const imageReference = document.querySelector('.image_references');
     const info = document.querySelector('.info');
     const info2 = document.querySelector('.info2');
@@ -12,7 +11,6 @@ document.addEventListener("scroll", function () {
     const windowHeight = window.innerHeight;
     const revealTopImage = imageAbout.getBoundingClientRect().top;
     const revealTopImage2 = imageExpertise.getBoundingClientRect().top;
-    const revealTopImage3 = imageTestimonials.getBoundingClientRect().top;
     const revealTopImage4 = imageReference.getBoundingClientRect().top;
     const revealTopInfo = info.getBoundingClientRect().top;
     const revealTopInfo2 = info2.getBoundingClientRect().top;
@@ -26,10 +24,6 @@ document.addEventListener("scroll", function () {
 
     if (revealTopImage2 < windowHeight - 100) {
         imageExpertise.classList.add('animated');
-    }
-
-    if (revealTopImage3 < windowHeight - 100) {
-        imageTestimonials.classList.add('animated');
     }
 
     if (revealTopImage4 < windowHeight - 100) {
