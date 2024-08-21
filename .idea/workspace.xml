@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c1fc262-cc6d-44f6-aa44-2f434459b5b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/envio/src/main/java/api/email/envio/controller/EnvioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envio/src/main/java/api/email/envio/dtocontato/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envio/src/main/java/api/email/envio/dtocontato/DadosContato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envio/src/main/java/api/email/envio/service/EnvioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animated.js" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/animated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/envio/src/main/resources/static/sitemap.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.5.2.Final/hibernate-core-6.5.2.Final-sources.jar!/org/hibernate/HibernateException.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kynawO9jywm1uUKxq1sCvk1g40" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EnvioApplication.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/Java/project-one/envio/src/main/resources/static",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\Java\project-one\envio\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EnvioApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.email.envio.EnvioApplication" />
+      <module name="envio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.email.envio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EnvioApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c1fc262-cc6d-44f6-aa44-2f434459b5b5" name="Changes" comment="" />
+      <created>1724264751072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724264751072</updated>
+    </task>
+    <servers />
+  </component>
+</project>
