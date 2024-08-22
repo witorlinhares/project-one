@@ -283,6 +283,7 @@ section{
 .image_about, .image_expertise, .image_testimonials, .image_references, .image_contact{
     width: 50%;
     height: 100%;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -381,6 +382,7 @@ section{
     .image_about, .image_expertise, .image_testimonials, .image_references, .image_contact{
         width: 100%;
         height: 100%;
+        object-fit: cover;
 }
     .info, .info2, .info3, .info4, .info5{
         justify-content: center;
