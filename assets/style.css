@@ -37,6 +37,17 @@ header{
     border-bottom: solid 1px #88a6c72f;
 }
 
+main{
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section{
+    min-height: 100vh;
+}
+
 .logo{
     font-size: 1.2rem;
     color: #ffffff;
@@ -126,7 +137,7 @@ header{
     }
 
     .info_company{
-        padding: 2rem 1rem;
+        padding: 1rem;
     }
 }
 
@@ -175,9 +186,6 @@ section#home{
 
 /* Responsive hero */
 @media(max-width: 992px){
-    section#home{
-        height: 80vh;
-    }
 
     #home h1{
         font-size: 2rem;
@@ -293,7 +301,7 @@ text-align: left;
     #about{
         flex-direction: column;
         height: 100%;
-        padding-bottom: 5rem ;
+        padding-bottom: 10rem ;
     }
 
     .image_about{
@@ -381,6 +389,15 @@ i {
     font-size: 1.5rem;
 }
 
+@media(max-width: 992px){
+    #activity{
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 10rem;
+        gap: 1rem;
+    }
+}
+
 .container h1{
     font-size: 1.2rem;
     padding: 1rem;
@@ -465,7 +482,44 @@ i {
     color: #b99567 !important;
 }
 
+@media(max-width: 992px){
+    .swiper-button-next{
+        margin-right: 10rem;
+    }
+    .swiper-button-prev{
+        margin-left: 5rem;
+    }
+}
 
+@media(max-width: 1024px){
+    .swiper-button-next{
+        margin-right: 10rem;
+    }
+    .swiper-button-prev{
+        margin-left: 7rem;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+}
+
+@media(max-width: 480px){
+    .swiper-button-next{
+        margin-right: 6rem;
+    }
+    .swiper-button-prev{
+        margin-left: 1rem;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+}
+
+footer{
+    box-sizing: border-box;;
+}
 
 /* footer */
 .info_company{
@@ -473,7 +527,6 @@ i {
     color: #fefefe;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5rem;
     gap: 10px;
 }
 
@@ -489,6 +542,7 @@ i {
     align-items: center;
     display: flex;
     padding: 1rem;
+    width: 100%;
 }
 
 
