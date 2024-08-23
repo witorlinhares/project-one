@@ -31,10 +31,9 @@ a{
     color: #ffffff;
 }
 
-/* header */
+/* Header */
 header{
     position: relative;
-    padding: 0.1rem;
     border-bottom: solid 1px #88a6c72f;
 }
 
@@ -51,7 +50,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .navbar .links {
@@ -78,7 +77,7 @@ header{
     cursor: pointer;
 }
 
-/* dropdown_menu */
+/* Dropdown menu */
 .dropdown_menu {
     display: none;
     position: absolute;
@@ -111,7 +110,7 @@ header{
     justify-content: center;
 }
 
-/* responsive navbar */
+/* Responsive navbar */
 @media(max-width: 992px){
     .navbar .links,
     .navbar .action_btn{
@@ -131,14 +130,14 @@ header{
     }
 }
 
-/* hero*/
+/* Hero*/
 section#home{
-    height: calc(100vh - 60px);
+    height: calc(100vh - 20px);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
     background-image: url('/assets/images/background.jpg.png');
     background-repeat: no-repeat;
@@ -147,22 +146,23 @@ section#home{
 }
 
 #home h1{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 3.3rem;
     font-weight: 400;
-    text-transform: uppercase;
+    margin-left: 6rem;
 }
 
 #home p{
     font-size: 1.5rem;
     font-weight: 200;
+    margin: 1.3rem 6rem;
 }
 
 .btn_home {
-    margin-top: 2rem;
     background: #b99567;
     padding: 1rem 2rem;
+    margin-left: 6rem;
     color: #ffffff;
+    display: flex;
     font-weight: 700;
     border-radius: 10px;
     font-size: 1rem;
@@ -170,9 +170,10 @@ section#home{
     align-items: center;
     display: flex;
     width: 20%;
+    
 }
 
-/* responsive hero */
+/* Responsive hero */
 @media(max-width: 992px){
     section#home{
         height: 80vh;
@@ -199,7 +200,6 @@ section#home{
     }
 }
 
-/* section info */
 #about{
     height: calc(100vh);
     display: flex;
@@ -235,10 +235,11 @@ text-align: left;
     border-radius: 10px;
 }
 
-.description_one{
+.title_section_about{
     color: #132d2a;
     font-size: 3rem;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .description_two{
@@ -306,7 +307,7 @@ text-align: left;
         padding: 1rem;
     }
 
-    .description_one{
+    .title_section_about{
         font-size: 2rem;
         font-weight: 600;
         margin-right: 7.8rem;
@@ -331,12 +332,75 @@ text-align: left;
         align-items: center;
     }
 
-    .btn_general{
-        width: 80%;
-        text-align: center;
-        margin-right: 4rem;
-    }
 }
+
+/* Area of ​​activity */
+
+#activity{
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fefefe;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.title_section{
+    color: #1a1c19;
+    padding: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 6rem;
+    gap: 3rem;
+    padding: 0.5rem;
+}
+
+.card{
+    background-color: #132d2a;
+    padding: 2rem;
+    border-radius: 5px;
+    border: solid 5px #b99567;
+}
+
+.title_section{
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.content{
+    justify-content: left;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.container h1{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.btn_activity {
+    margin: 1rem 0rem;
+    background: #b99567;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20%;
+}
+
+
 
 /* footer */
 .info_company{
