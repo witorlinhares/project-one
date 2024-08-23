@@ -401,10 +401,74 @@ i {
 }
 
 
+/* Testmonials */
+
+.testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials_box{
+    max-width: 600px;
+    padding: 30px 20px;
+    display: flex;
+    position: relative;
+}
+
+.slide .person{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.slide{
+    padding: 40px 60px;
+    cursor: grab;
+}
+
+.slide :active{
+    cursor: grabbing;
+}
+
+.person{
+    padding: 1rem 0 0;
+}
+
+.name_person{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.image_person{
+    width: 60px;
+    border-radius: 10px;
+}
+
+
+/* Carousel */
+.swiper-button-next {
+    margin-right: 20rem; 
+    color: #132d2a !important;
+}
+
+.swiper-button-prev {
+    margin-left: 20rem;
+    color: #132d2a !important;
+}
+
+.swiper-pagination{
+    color: #b99567 !important;
+}
+
+
 
 /* footer */
 .info_company{
-    /* background-color: #2b3427; */
     display: flex;
     color: #fefefe;
     justify-content: center;
