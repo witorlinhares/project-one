@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary: #183029;
+    --secondary: #b99567;
+    --tertiary: #ffffff;
+    --btn-bg: #b99567;
+    --btn-text: #ffffff;
+    --menu-bg: rgba(255, 255, 255, 0.116);
+}
+
+
+
 ::-webkit-scrollbar {
     width: 5px;
 }
