@@ -8,29 +8,27 @@
 :root{
     --primary: #183029;
     --secondary: #b99567;
-    --tertiary: #ffffff;
+    --tertiary: #ffffff;;
     --btn-bg: #b99567;
-    --btn-text: #ffffff;
-    --menu-bg: rgba(255, 255, 255, 0.116);
+    --btn-text: #ffffff;;
+    --line-header: #88a6c72f;
 }
-
-
 
 ::-webkit-scrollbar {
     width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: var(--tertiary);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #183029;
+    background: var(--primary);
 }
 
 body{
     height: 100vh;
-    background-color: #183029;
+    background: var(--primary);
 }
 
 li{
@@ -39,13 +37,13 @@ li{
 
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: var(--tertiary);;
 }
 
 /* Header */
 header{
     position: relative;
-    border-bottom: solid 1px #88a6c72f;
+    border-bottom: solid 1px var(--line-header);
 }
 
 main{
@@ -61,7 +59,7 @@ section{
 
 .logo{
     font-size: 1.2rem;
-    color: #ffffff;
+    color: var(--tertiary);;
 }
 
 .navbar {
@@ -81,7 +79,7 @@ section{
 }
 
 .navbar .toggle_btn {
-    color: #ffffff;
+    color: var(--tertiary);;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
@@ -89,7 +87,7 @@ section{
 
 .action_btn {
     background-color: #b99567;
-    color: #ffffff;
+    color: var(--tertiary);;
     padding: 0.6rem 3rem;
     border: none;
     outline: none;
@@ -160,7 +158,7 @@ section#home{
     align-items: left;
     justify-content: center;
     text-align: left;
-    color: #ffffff;
+    color: var(--tertiary);
     background-image: url('/assets/images/background.jpg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -180,10 +178,10 @@ section#home{
 }
 
 .btn_home {
-    background: #b99567;
+    background: var(--btn-bg);
     padding: 1rem 2rem;
     margin-left: 6rem;
-    color: #ffffff;
+    color: var(--tertiary);;
     display: flex;
     font-weight: 700;
     border-radius: 10px;
@@ -226,8 +224,8 @@ section#home{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fefefe;
-    background-color: #fefefe;
+    color: var(--btn-text);
+    background-color: var(--tertiary);
     flex-direction: row;
 }
 
@@ -255,7 +253,7 @@ text-align: left;
 }
 
 .title_section_about{
-    color: #132d2a;
+    color: var(--primary);
     font-size: 3rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -263,7 +261,7 @@ text-align: left;
 
 .description_two{
     font-size: 1.3rem;
-    color: #132d2a;
+    color: var(--primary);
     font-weight: 400;
     text-align: left;
     line-height: 1.5;
@@ -273,9 +271,9 @@ text-align: left;
 
 .btn_about {
     margin-top: 2rem;
-    background: #b99567;
+    background: var(--btn-bg);
     padding: 1rem 2rem;
-    color: #ffffff;
+    color: var(--tertiary);;
     font-weight: 700;
     border-radius: 10px;
     font-size: 1rem;
@@ -362,13 +360,13 @@ text-align: left;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fefefe;
-    background-color: #ffffff;
+    color: var(--btn-text);
+    background-color: var(--tertiary);;
     flex-direction: column;
 }
 
 .title_section{
-    color: #1a1c19;
+    color: var(--primary);
     padding: 2rem;
 }
 
@@ -381,10 +379,10 @@ text-align: left;
 }
 
 .card{
-    background-color: #132d2a;
+    background-color: var(--primary);
     padding: 2rem;
     border-radius: 5px;
-    border: solid 5px #b99567;
+    border: solid 5px var(--secondary);
 }
 
 .title_section{
@@ -416,9 +414,9 @@ i {
 
 .btn_activity {
     margin: 1rem 0rem;
-    background: #b99567;
+    background: var(--secondary);
     padding: 1rem 2rem;
-    color: #ffffff;
+    color: var(--tertiary);;
     font-weight: 700;
     border-radius: 10px;
     font-size: 1rem;
@@ -435,7 +433,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--tertiary);
     position: relative;
     overflow: hidden;
 }
@@ -481,16 +479,12 @@ i {
 /* Carousel */
 .swiper-button-next {
     margin-right: 20rem; 
-    color: #132d2a !important;
+    color: var(--primary) !important;
 }
 
 .swiper-button-prev {
     margin-left: 20rem;
-    color: #132d2a !important;
-}
-
-.swiper-pagination{
-    color: #b99567 !important;
+    color: var(--primary) !important;
 }
 
 @media(max-width: 992px){
