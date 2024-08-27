@@ -18,11 +18,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-class App extends Component {
+class Home extends Component {
   render() {
     
     return (
-      <div className="App">
+      <div className="Home">
         <header>
 
           <div class="navbar">
@@ -250,4 +250,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
