@@ -22,6 +22,8 @@ public class Controller {
         //Lógica para salvar os dados da pessoa (por exemplo, em um banco de dados)
         System.out.println("Nome:" + pessoa.getNome());
         System.out.println("Email:" + pessoa.getEmail());
+        System.out.println("Telefone:" + pessoa.getTelefone());
+        System.out.println("Mensagem:" + pessoa.getMensagem());
         return "Sucesso";
     }
 }
