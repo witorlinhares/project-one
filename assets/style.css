@@ -259,7 +259,7 @@ text-align: left;
     text-transform: uppercase;
 }
 
-.description_two{
+#about .description_two{
     font-size: 1.3rem;
     color: var(--primary);
     font-weight: 400;
@@ -330,7 +330,7 @@ text-align: left;
         margin-right: 7.8rem;
     }
 
-    .description_two{
+    #about .description_two{
         margin: 1.5rem 0;
         font-weight: 500;
         padding: 0;
