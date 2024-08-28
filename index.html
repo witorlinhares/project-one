@@ -236,24 +236,27 @@
                 <h2 class="title_div_left">Como podemos lhe<br> ajudar? Entre em contato!</h2>
             </div>
             <div class="div_form">
-                <form method="post">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <div>
                         <label class="description_two" for="nome">Nome:</label>
-                        <input id="nome" type="text" placeholder="Nome">
+                        <input id="nome" type="text" name="name" placeholder="Nome" required>
                     </div>
                     <div>
                         <label class="description_two" for="email">Email:</label>
-                        <input id="email" type="email" placeholder="E-mail">
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
                     </div>
                     <div>
                         <label class="description_two" for="telefone">Telefone:</label>
-                        <input id="telefone" type="text" placeholder="Telefone">
+                        <input id="telefone" type="text" name="phone" placeholder="Telefone" required>
                     </div>
                     <div>
                         <label class="description_two" for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+                        <textarea id="mensagem" type="text" placeholder="Mensagem" name="message" required></textarea>
                     </div>
-                    <button class="btn_general type="submit>Enviar</button>
+                    <input class="btn_general" type="submit" value="Enviar">
+
+                    <input type="hidden" name="accessKey" value="a47d2ea4-7403-4e3d-b915-e5739da66e22">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/sucess.html">
                 </form>
             </div>
             </div>
