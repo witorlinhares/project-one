@@ -36,15 +36,6 @@ app.get("/users/:id", /*isAuthorized,*/ (req, res) => {
     }
 })
 
-app.get("/products", (req, res) => {
-  res.json([
-    {
-      id: 1,
-      name: "The Bluest Eye",
-    },
-  ]);
-});
-
 // Implement POST request handler for /form route
 app.post("/form", (req, res) => {
     console.log(req.body)
@@ -53,7 +44,7 @@ app.post("/form", (req, res) => {
   
     // Validate data if necessary
     //if (!name || !email || !phone || !message) {
-    //    return res.status(400).json({ error: 'Nome, email e mensagem são obrigatórios' });
+    //    return res.status(400).json({ error: 'Nome, email, telefone e mensagem são obrigatórios' });
     //}
   
     // Adiciona os dados ao array
