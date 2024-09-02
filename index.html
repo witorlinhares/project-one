@@ -236,6 +236,29 @@
                 <h2 class="title_div_left">Como podemos lhe<br> ajudar? Entre em contato!</h2>
             </div>
             <div class="div_form">
+                <form action="/form" method="POST">
+                    <div>
+                        <label class="description_two" for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                    </div>
+                    <div>
+                        <label class="description_two" for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>  
+                    </div>
+                
+                    <div>
+                        <label class="description_two" for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" required><br><br> 
+                    </div>
+                
+                    <div>
+                        <label class="description_two" for="message">Mensagem:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    </div>
+                
+                    <input class="btn_general" type="submit" value="Enviar">
+                  </form>
+                <!--
                 <form action="https://api.staticforms.xyz/submit" method="post">
                     <div>
                         <label class="description_two" for="nome">Nome:</label>
@@ -256,10 +279,11 @@
                     <input class="btn_general" type="submit" value="Enviar">
 
                     <input type="hidden" name="accessKey" value="a47d2ea4-7403-4e3d-b915-e5739da66e22">
-                    <!-- Alterar a url local http://127.0.0.1:3000 para o domínio em produção -->
                     <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/sucess.html">
                     <input type="text" name="honeypot" style="display: none;">
                 </form>
+                -->
+                <!-- Alterar a url local http://127.0.0.1:3000 para o domínio em produção -->
             </div>
             </div>
         </section>
@@ -283,7 +307,7 @@
     <script src="assets/scripts/scroll.js"></script>
     <script src="assets/scripts/animated.js"></script>
     <script src="assets/scripts/form.js"></script>
-    
+    <script src="./app.js"></script>
 </body>
 
 </html>
